@@ -11,6 +11,9 @@
 		0231051F29ECBB490050F864 /* ResourceFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0231051429ECBB490050F864 /* ResourceFramework.framework */; };
 		0231052429ECBB490050F864 /* ResourceFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231052329ECBB490050F864 /* ResourceFrameworkTests.swift */; };
 		0231052529ECBB490050F864 /* ResourceFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 0231051729ECBB490050F864 /* ResourceFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0231053329ECBC890050F864 /* R.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231053229ECBC890050F864 /* R.swift */; };
+		0231053529ECBCC50050F864 /* R+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231053429ECBCC50050F864 /* R+Image.swift */; };
+		0231053729ECBE560050F864 /* R+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231053629ECBE560050F864 /* R+Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +32,9 @@
 		0231051829ECBB490050F864 /* ResourceFramework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = ResourceFramework.docc; sourceTree = "<group>"; };
 		0231051E29ECBB490050F864 /* ResourceFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResourceFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0231052329ECBB490050F864 /* ResourceFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceFrameworkTests.swift; sourceTree = "<group>"; };
+		0231053229ECBC890050F864 /* R.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R.swift; sourceTree = "<group>"; };
+		0231053429ECBCC50050F864 /* R+Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "R+Image.swift"; sourceTree = "<group>"; };
+		0231053629ECBE560050F864 /* R+Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "R+Color.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +79,9 @@
 			children = (
 				0231051729ECBB490050F864 /* ResourceFramework.h */,
 				0231051829ECBB490050F864 /* ResourceFramework.docc */,
+				0231053229ECBC890050F864 /* R.swift */,
+				0231053429ECBCC50050F864 /* R+Image.swift */,
+				0231053629ECBE560050F864 /* R+Color.swift */,
 			);
 			path = ResourceFramework;
 			sourceTree = "<group>";
@@ -194,6 +203,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0231053729ECBE560050F864 /* R+Color.swift in Sources */,
+				0231053529ECBCC50050F864 /* R+Image.swift in Sources */,
+				0231053329ECBC890050F864 /* R.swift in Sources */,
 				0231051929ECBB490050F864 /* ResourceFramework.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -396,6 +408,7 @@
 		0231052C29ECBB490050F864 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8AN45VBDM4;
@@ -412,6 +425,7 @@
 		0231052D29ECBB490050F864 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8AN45VBDM4;
