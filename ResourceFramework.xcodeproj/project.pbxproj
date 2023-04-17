@@ -14,6 +14,8 @@
 		0231053329ECBC890050F864 /* R.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231053229ECBC890050F864 /* R.swift */; };
 		0231053529ECBCC50050F864 /* R+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231053429ECBCC50050F864 /* R+Image.swift */; };
 		0231053729ECBE560050F864 /* R+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231053629ECBE560050F864 /* R+Color.swift */; };
+		023A3C2529ECCAA400157117 /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 023A3C2329ECCA9600157117 /* Image.xcassets */; };
+		023A3C2629ECCAA400157117 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 023A3C2429ECCA9600157117 /* Color.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 		0231053229ECBC890050F864 /* R.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R.swift; sourceTree = "<group>"; };
 		0231053429ECBCC50050F864 /* R+Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "R+Image.swift"; sourceTree = "<group>"; };
 		0231053629ECBE560050F864 /* R+Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "R+Color.swift"; sourceTree = "<group>"; };
+		023A3C2329ECCA9600157117 /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
+		023A3C2429ECCA9600157117 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		0231051629ECBB490050F864 /* ResourceFramework */ = {
 			isa = PBXGroup;
 			children = (
+				023A3C2229ECCA9600157117 /* Resources */,
 				0231051729ECBB490050F864 /* ResourceFramework.h */,
 				0231051829ECBB490050F864 /* ResourceFramework.docc */,
 				0231053229ECBC890050F864 /* R.swift */,
@@ -92,6 +97,15 @@
 				0231052329ECBB490050F864 /* ResourceFrameworkTests.swift */,
 			);
 			path = ResourceFrameworkTests;
+			sourceTree = "<group>";
+		};
+		023A3C2229ECCA9600157117 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				023A3C2329ECCA9600157117 /* Image.xcassets */,
+				023A3C2429ECCA9600157117 /* Color.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,6 +200,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				023A3C2529ECCAA400157117 /* Image.xcassets in Resources */,
+				023A3C2629ECCAA400157117 /* Color.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
